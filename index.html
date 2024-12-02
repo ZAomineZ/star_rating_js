@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link href="/vite.svg" rel="icon" type="image/svg+xml"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Vite + TS</title>
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+          integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+          referrerpolicy="no-referrer" rel="stylesheet"/>
+    <link href="src/style.css" rel="stylesheet">
+</head>
+<body>
+<div id="main">
+    <div id="container">
+        <h1>Are you Satisfied with our service ?</h1>
+        <form action="#" id="form">
+            <i class="fas fa-star star" star-rating="1"></i>
+            <i class="fas fa-star star" star-rating="2"></i>
+            <i class="fas fa-star star" star-rating="3"></i>
+            <i class="fas fa-star star" star-rating="4"></i>
+            <i class="fas fa-star star" star-rating="5"></i>
+            <input id="ratingInput" name="rating" style="display: none" type="number" value="3">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</div>
+
+<div>
+    <p id="ratingValue">Click on the Stars to Rate them !</p>
+</div>
+<script src="/src/main.ts" type="module"></script>
+</body>
+</html>
